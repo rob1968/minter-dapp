@@ -6,7 +6,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 
 const network = NETWORK.eth;
 
-// General metadata for Ethereum
+// General metadat for Ethereum
 const namePrefix = "PiCoin";
 const description = "PiCoin to the Moon";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
