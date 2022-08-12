@@ -43,7 +43,7 @@ const extraMetadata = {
 // NFTPort Info
 
 // ** REQUIRED **
-const AUTH = ; // Set this in the .env file to prevent exposing your API key when pushing to Github
+const AUTH = "8c1793e7-9266-4248-be93-fcebebae778c"; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
@@ -58,10 +58,10 @@ const MINT_PRICE = 0.00314; // Minting price per NFT. Rinkeby = ETH, Ethereum = 
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-08-12T12:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-08-15T12:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = 2022-08-10T12:00:48+00:00; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = 2022-08-11T12:00:48+00:00; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x6520a1c1494dcFD33DA0eDD2838F60E6d5434890"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
